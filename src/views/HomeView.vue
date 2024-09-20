@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+// import Swal from 'sweetalert2';
+</script>
 
 <template>
   <div class="card">
