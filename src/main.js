@@ -6,9 +6,23 @@ import router from './router';
 import 'sweetalert2/dist/sweetalert2.min.css';
 // icon library
 import { OhVueIcon, addIcons } from 'oh-vue-icons';
-import { BiPersonCircle, IoCheckmarkCircleSharp, IoChevronDownCircle } from 'oh-vue-icons/icons';
+import {
+  BiPersonCircle,
+  IoCheckmarkCircleSharp,
+  IoChevronDownCircle,
+  FaTachometerAlt,
+  RiUserSettingsFill,
+  MdKeyboardarrowdownRound
+} from 'oh-vue-icons/icons';
 
-addIcons(BiPersonCircle, IoCheckmarkCircleSharp, IoChevronDownCircle);
+addIcons(
+  BiPersonCircle,
+  IoCheckmarkCircleSharp,
+  IoChevronDownCircle,
+  FaTachometerAlt,
+  RiUserSettingsFill,
+  MdKeyboardarrowdownRound
+);
 
 const app = createApp(App);
 const pinia = createPinia();

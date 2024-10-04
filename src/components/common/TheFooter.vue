@@ -27,7 +27,7 @@ const copyRightYr = ref(new Date().getFullYear());
 footer {
   margin-top: 2rem;
   /* padding-left: sidebar寬 */
-  padding: 1rem 1rem 3rem 11rem;
+  padding: 1rem 1rem 3rem 14rem;
   font-size: 0.75rem;
   background-color: #000;
   color: #fff;

@@ -22,6 +22,7 @@ onMounted(async () => {
 
 <template>
   <TheHeader>
+    <!-- 這裡寫header的系統名稱 -->
     <template #system>System Name</template>
     <template #userName>{{ userName }}</template>
   </TheHeader>
@@ -38,6 +39,6 @@ main {
   padding: 1rem;
   flex-grow: 1;
   /* sidebar 寬度 */
-  margin-left: 10rem;
+  margin-left: 13rem;
 }
 </style>

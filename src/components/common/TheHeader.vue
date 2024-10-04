@@ -34,9 +34,10 @@ header {
   z-index: 999;
 
   .header__logo {
-    flex: 0 1 8rem;
+    flex: 0 1 11rem;
     display: flex;
     align-items: center;
+    justify-content: center;
 
     img {
       width: 100%;
